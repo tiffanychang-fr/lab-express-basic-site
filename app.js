@@ -1,6 +1,7 @@
+// Import Express framework
 const express = require("express");
 
-// Create an app server
+// Create a server called app
 const app = express();
 
 // Get use of static files from public folder
@@ -24,6 +25,6 @@ app.get("/works", (req, res) => {
 });
 
 // Listener
-app.listen("3000", () => {
+app.listen(3000, () => {
   console.log("server is running on port 3000");
 });

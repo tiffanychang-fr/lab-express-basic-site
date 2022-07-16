@@ -5,17 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>About</title>
   </head>
   <body>
-    <h1>About</h1>
-    <img src="/images/Kre8.jpg" alt="" />
-    <p>
-      There is no mistaking the art of Kevin “Kre8” Vigil. His distinct style of
-      colorful, abstract splashes against black-and-gray compositions has earned
-      him fans around the world. Drawing on a unique background steeped in
-      graffiti art, tattoo artistry, and a love of Surrealism, Kre8 has inspired
-      art lovers to share in his vision of enjoying creativity and life.
-    </p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Kre8</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="/">
+            Home
+            <span class="sr-only"></span>
+          </a>
+          <a class="nav-item nav-link" href="/about">About</a>
+          <a class="nav-item nav-link" href="/works">Works</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Introduction of Kre8 -->
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="/images/Kre8.jpg" alt="kre8" />
+            <div class="card-body">
+              <h3 class="card-title">Kre8</h3>
+              <p class="card-text">
+                There is no mistaking the art of Kevin “Kre8” Vigil. His
+                distinct style of colorful, abstract splashes against
+                black-and-gray compositions has earned him fans around the
+                world. Drawing on a unique background steeped in graffiti art,
+                tattoo artistry, and a love of Surrealism, Kre8 has inspired art
+                lovers to share in his vision of enjoying creativity and life.
+              </p>
+              <!-- <a href="/players" class="btn btn-primary">See Players</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

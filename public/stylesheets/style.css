@@ -1,4 +1,13 @@
-body {
+/* body {
   color: black;
   background-color: bisque;
+} */
+
+.card img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.container {
+  margin-top: 50px;
 }

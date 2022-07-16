@@ -5,20 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>Works</title>
   </head>
   <body>
-    <h1>Works</h1>
-    <img src="images/kre8-origins-of-discipline.jpg" alt="" width="300px" />
-    <h3>Origins of Discipline</h3>
-    <p>2020</p>
-    <hr />
-    <img src="images/kre8-baby-grand.jpg" alt="" width="300px" />
-    <h3>Baby Grand</h3>
-    <p>2020</p>
-    <hr />
-    <img src="images/kre8-the-harmony-of-chaos.jpg" alt="" width="300px" />
-    <h3>The Harmony of Chaos</h3>
-    <p>2022</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Kre8</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="/">
+            Home
+            <span class="sr-only"></span>
+          </a>
+          <a class="nav-item nav-link" href="/about">About</a>
+          <a class="nav-item nav-link" href="/works">Works</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Example of arts -->
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/kre8-origins-of-discipline.jpg"
+              alt="origins-of-discipline"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Origins of Discipline</h5>
+              <p class="card-text">2020</p>
+              <a href="#" class="btn btn-primary">Buy this artwork</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/kre8-baby-grand.jpg" alt="baby-grand" />
+            <div class="card-body">
+              <h5 class="card-title">Baby Grand</h5>
+              <p class="card-text">2020</p>
+              <a href="#" class="btn btn-primary">Buy this artwork</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/kre8-the-harmony-of-chaos.jpg"
+              alt="the-harmony-of-chaos"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Harmony of Chaos</h5>
+              <p class="card-text">2022</p>
+              <a href="#" class="btn btn-primary">Buy this artwork</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/kre8-vigil-flavors-of-kre8tion.jpg"
+              alt="vigil-flavors-of-kre8tion"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Flavors Of Kre8tion</h5>
+              <p class="card-text">2002</p>
+              <a href="#" class="btn btn-primary">Buy this artwork</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/kre8-love-life.jpg" alt="love-life" />
+            <div class="card-body">
+              <h5 class="card-title">Love life</h5>
+              <p class="card-text">2020</p>
+              <a href="#" class="btn btn-primary">Buy this artwork</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/kre8-visions-of-a-dreamer.jpg"
+              alt="visions-of-a-dreamer"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Vision of a Dreamer</h5>
+              <p class="card-text">2021</p>
+              <a href="#" class="btn btn-primary">Buy this artwork</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
